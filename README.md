@@ -20,6 +20,6 @@ Alphabet Soup, a non-profit foundation, desires to analyze the impact of their d
 ![model train](https://user-images.githubusercontent.com/106560739/197108718-cd13cc7c-db67-4e20-b1b2-e78f85bdefca.png)
 ![model evaluate](https://user-images.githubusercontent.com/106560739/197108724-179818b9-4a9c-4bd0-99c1-b2eb9955862f.png)
 ## Summary
-Through the removal of noisy features, additional neurons and hidden layers and changed activation functions, the accuracy of the optimized model for predicting whether a donation is successful ended up being 0.6868 and its loss metric was 1.3676.
+Through the removal of noisy features, additional neurons and hidden layers and changed activation functions, the accuracy of the optimized model for predicting whether a donation is successful ended up being 0.69703 and its loss metric was 1.1497.
 ### Recommendation
 This classification problem could be solved by using a random forest model since it would randomly sample the preprocessed data and build several smaller, less complex decision trees. A benefit of using a random forest model is how robust it is against overfitting of the data because all of the weak learners are trained on different pieces of the data. Moreover, it can be used to effectively rank the importance of input variables and it is robust to outliers and nonlinear data. Finally, it can run efficiently on large datasets.
